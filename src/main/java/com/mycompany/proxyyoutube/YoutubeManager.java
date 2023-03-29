@@ -9,9 +9,12 @@ package com.mycompany.proxyyoutube;
  *
  * @author nicol
  */
-public class ProxyYoutube {
+public class YoutubeManager {
 
+    
+    
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        CachedYouTubeClass cache = new CachedYoutubeClass();
+        System.out.println("Probando cache youtube");        
     }
 }
